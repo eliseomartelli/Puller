@@ -1,4 +1,4 @@
-FROM apline:3.10
+FROM alpine:3.10
 
 RUN apk add git
 VOLUME ["/config"]
